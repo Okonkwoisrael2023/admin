@@ -1,0 +1,138 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    
+}
+body{
+    background-image: url(bg.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+#nav div{
+    padding: 1px;
+}
+#nav div a{
+    color: black;
+    text-decoration: none;
+
+}
+
+#nav_logo img{
+    
+     width: 100px;
+     height: 100px; 
+     border: 1px solid inherit;
+     border-radius: 50px;
+     background-color: white; 
+}
+#navbar{
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-right: 400px;
+}
+#navbar button {
+    padding: 5px 10px;
+    background-color: inherit ;
+    border: 2px solid beige;
+    border-radius: 5px;
+}
+
+#nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+     margin-left: 30px;
+    
+}
+#nav a {
+    padding: 20px;
+    font-weight: 800;
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+#nav a:hover {
+    background-color: #04364a;
+    color: whitesmoke;
+    border-radius: 7px;
+    padding: 5px 10px;
+}
+#main{ 
+ width: 100%;
+ display: flex;
+ justify-content: center;
+ align-items: center; 
+ 
+
+}
+#h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #64ccc5;
+    font-size: 30px;
+    font-style: italic;
+}
+#write{
+    background-color: #04364a;
+    padding: 100px;
+    border-radius: 10px;
+    margin: 10px;
+    width: 700px;
+    height: 200px;
+    
+}
+
+#write input{
+    border: none;
+    padding: 7px;
+    border-bottom: 2px solid whitesmoke;
+    background-color: inherit;
+    
+}
+#write input:hover{
+    background-color: white;
+    padding: 15px;
+}
+#write input:focus{
+    background-color: white;
+    padding: 15px;
+
+}
+#write button{
+    background-color: #04364a;
+    border: 2px solid white;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+#wrt_span{
+    color: whitesmoke;
+}
+footer{
+     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer a{
+    padding: 20px;
+    font-weight: 800;
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+footer a:hover{
+    background-color: #04364a;
+    color: whitesmoke;
+    border-radius: 7px;
+    padding: 5px 10px;
+}
+/* #write2{
+    margin-left: 80px;
+} */
